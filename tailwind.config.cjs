@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.svelte"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        cardo: ["Cardo", "serif"],
+      },
+    },
   },
   plugins: ["tailwindcss", "autoprefixer"],
 };

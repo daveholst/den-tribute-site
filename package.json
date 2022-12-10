@@ -13,6 +13,8 @@
     "@sveltejs/vite-plugin-svelte": "^2.0.0",
     "@tsconfig/svelte": "^3.0.0",
     "autoprefixer": "^10.4.13",
+    "eslint": "^8.29.0",
+    "eslint-plugin-svelte": "^2.14.0",
     "postcss": "^8.4.19",
     "svelte": "^3.54.0",
     "svelte-check": "^2.10.0",
@@ -22,6 +24,7 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
+    "eslint-plugin-tailwindcss": "^3.7.1",
     "svelte-preprocess": "^5.0.0"
   }
 }
