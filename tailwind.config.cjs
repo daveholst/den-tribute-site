@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.svelte"],
-  theme: {
-    extend: {
-      fontFamily: {
-        cardo: ["Cardo", "serif"],
-      },
-    },
-  },
-  plugins: ["tailwindcss", "autoprefixer"],
+	content: ['./src/**/*.{html,js,svelte,ts}'],
+	theme: {
+		extend: {
+			fontFamily: {
+				cardo: ['Cardo', 'Serif']
+			}
+		}
+	},
+	plugins: []
 };

@@ -10,9 +10,9 @@
     "plugin:tailwindcss/recommended"
   ],
   "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
+    // "ecmaFeatures": {
+    //   "jsx": true
+    // },
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
@@ -22,5 +22,11 @@
   "rules": {
     // override/add rules settings here, such as:
     // 'svelte/rule-name': 'error'
+    "tailwindcss/classnames-order": "warn"
+  },
+  "settings": {
+    "tailwindcss": {
+      "config": "tailwind.config.cjs"
+    }
   }
 }
