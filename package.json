@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-static": "1.0.0-next.49",
 		"prettier-plugin-tailwindcss": "^0.2.1"
 	}
 }
