@@ -1,6 +1,8 @@
 <script lang="ts">
 	// required for static build
-	export const prerender = true;
+	// export const prerender = true;
+	// export const trailingSlash = 'always';
+
 	import { page } from '$app/stores';
 
 	import '../app.css';
